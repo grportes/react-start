@@ -1,0 +1,29 @@
+.menu-list-item {
+    justify-content: center !important;
+}
+
+.subcategoria-text {
+    font-size: 0.875rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+}
+
+.subcategorias {
+    display: block;
+}
+
+@media (max-width: 960px)
+{
+    .pedido-barra-lateral___filtro_rapido{
+        display: grid !important;
+        grid-template-columns: auto auto;
+        grid-column-gap: 5px;
+    }
+
+    .subcategorias {
+        display: none;
+    }
+}
+

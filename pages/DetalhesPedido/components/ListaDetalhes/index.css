@@ -1,0 +1,38 @@
+
+.detalhe__info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-right: 22px;
+
+    font-family: "Roboto", "Helvetica", "Arial", "sans-serif";
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.5;
+
+}
+
+.detalhe__info p {
+    margin: 0;
+    padding: 3px;
+}
+
+.detalhe__info p span {
+    
+    font-weight: 600;
+}
+
+.detalhe__info__total {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+
+
+/* .MuiTypography-root {} */
+
+/* .customMuiTypography-body1 {} */
+
+/* .MuiTypography-body2 {} */

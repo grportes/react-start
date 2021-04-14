@@ -1,0 +1,49 @@
+
+.item__pedido {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-right: 22px;
+    justify-content: center;
+}
+
+.item__info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-right: 22px;
+
+    font-family: "Roboto", "Helvetica", "Arial", "sans-serif";
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.5;
+
+}
+
+.item__info p {
+    margin: 0;
+    padding: 3px;
+}
+
+.item__info p span {
+    font-weight: 500;
+}
+
+.item__info__desc {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.item__info__total {
+    align-self: flex-end;
+
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* .MuiTypography-root {} */
+
+/* .customMuiTypography-body1 {} */
+
+/* .MuiTypography-body2 {} */

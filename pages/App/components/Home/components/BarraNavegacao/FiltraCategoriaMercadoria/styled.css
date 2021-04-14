@@ -1,0 +1,23 @@
+.barra_nav_categoria___tab{
+    font-size: 12px !important;
+}
+
+.nav_bar_categorias_tabs{
+    display: none;
+}
+
+@media (min-width: 1025px ) and (max-width: 1080px)
+{
+    .barra_nav_categoria___tab{
+        /*font-size: 12px !important;*/
+        max-width: 100px !important;
+        padding: 0 !important;
+    }
+}
+
+@media (min-width: 1024px)
+{
+    .nav_bar_categorias_tabs{
+        display: block;
+    }
+}

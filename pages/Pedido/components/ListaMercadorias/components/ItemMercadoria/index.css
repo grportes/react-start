@@ -1,0 +1,33 @@
+.box-image {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.info-produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.valor-produto {
+    display: block;
+    margin-bottom: 4px !important;
+    font-size: 1.1rem !important;
+}
+
+.valor-produto-uni {
+    display: block;
+    margin-top: -10px;
+    font-size: 0.8rem !important;
+    color: gray;
+}
+
+.box-icon {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}

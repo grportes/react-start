@@ -1,0 +1,16 @@
+.botoes {
+    display: block;
+    text-align: right;
+    margin-bottom: 16px;
+}
+
+.row.selected {
+    background: #3f51b517;
+}
+
+@media (max-width: 600px)
+{
+    .tabela-mercadoria___img{
+        width: 0 !important;
+    }
+}

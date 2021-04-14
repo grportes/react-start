@@ -1,0 +1,19 @@
+.minha_conta___btn_mudar_senha
+{
+    text-decoration: none !important;
+    background-color: #00a651 !important;
+    color: white !important;
+}
+
+.minha_conta___mudar_senha_cancelar
+{
+    margin-right: 10px;
+    text-decoration: none !important;
+    color: red !important;
+}
+
+.minha_conta___mudar_senha_confirmar
+{
+    text-decoration: none !important;
+    color: #00a651 !important;
+}

@@ -1,0 +1,34 @@
+
+@media (min-width: 750px)
+{
+    .tabela_checkout___main{
+        min-width: 520px;
+    }
+}
+
+.tabela_checkout___descricao{
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.info-preco {
+    padding-top: 6px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.div-botoes {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-no-items {
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    flex-direction: column;
+}
