@@ -1,0 +1,33 @@
+.box-imagemMercadoriaAmpliada {
+  position: fixed;
+  width: 350px;
+  height: 350px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  z-index: 9;
+}
+
+.img-imagemMercadoriaAmpliada {
+  width: 270px;
+  height: 270px;
+}
+
+@media only screen and (min-width: 600px) {
+  .box-imagemMercadoriaAmpliada {
+    position: fixed;
+    width: 550px;
+    height: 550px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    z-index: 9;
+  }
+
+  .img-imagemMercadoriaAmpliada {
+    width: 450px;
+    height: 450px;
+  }
+}
